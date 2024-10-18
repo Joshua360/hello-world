@@ -39,7 +39,7 @@ services:
       CONCURRENT: 10
       TOKEN: chrome_token
       EXIT_ON_HEALTH_FAILURE: "true"
-      PRE_REQUEST_HEALTH_CHECK: true
+      PRE_REQUEST_HEALTH_CHECK: "true"
 
   app:
     image: reactive-resume:latest
@@ -83,7 +83,7 @@ services:
       STORAGE_SECRET_KEY: minioadmin
       STORAGE_USE_SSL: "false"
 
-      STORAGE_SKIP_BUCKET_CHECK: false
+      STORAGE_SKIP_BUCKET_CHECK: "false"
 
       # -- Crowdin (Optional) --
       # CROWDIN_PROJECT_ID:
