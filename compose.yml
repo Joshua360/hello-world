@@ -30,6 +30,7 @@ services:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin
 
+
   # Chrome Browser (for printing and previews)
   chrome:
     image: ghcr.io/browserless/chromium:latest
