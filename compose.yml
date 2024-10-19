@@ -30,7 +30,6 @@ services:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin
 
-
   # Chrome Browser (for printing and previews)
   chrome:
     image: ghcr.io/browserless/chromium:latest
@@ -43,7 +42,7 @@ services:
       PRE_REQUEST_HEALTH_CHECK: "true"
 
   app:
-    image: reactive-resume:latest
+    image: instantlyhired:latest
     restart: unless-stopped
     ports:
       - "3000:3000"
@@ -54,11 +53,11 @@ services:
     environment:
       # -- Environment Variables --
       PORT: 3000
-      NODE_ENV: production
+      NODE_ENV: development
 
       # -- URLs --
-      PUBLIC_URL: http://139.59.177.92:3000
-      STORAGE_URL: http://139.59.177.92:9000/default
+      PUBLIC_URL: localhost:3000
+      STORAGE_URL: localhost:9000/default
 
       # -- Printer (Chrome) --
       CHROME_TOKEN: chrome_token
@@ -97,12 +96,12 @@ services:
       # -- GitHub (Optional) --
       # GITHUB_CLIENT_ID: github_client_id
       # GITHUB_CLIENT_SECRET: github_client_secret
-      # GITHUB_CALLBACK_URL: http://139.59.177.92:3000/api/auth/github/callback
+      # GITHUB_CALLBACK_URL: localhost:3000/api/auth/github/callback
 
       # -- Google (Optional) --
       # GOOGLE_CLIENT_ID: google_client_id
       # GOOGLE_CLIENT_SECRET: google_client_secret
-      # GOOGLE_CALLBACK_URL: http://139.59.177.92:3000/api/auth/google/callback
+      # GOOGLE_CALLBACK_URL: localhost:3000/api/auth/google/callback
 
 volumes:
   minio_data:

@@ -7,7 +7,7 @@ ARG NX_CLOUD_ACCESS_TOKEN
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 
-ENV NODE_OPTIONS="--max-old-space-size=4096" 
+#ENV NODE_OPTIONS="--max-old-space-size=4096" 
 
 
 RUN corepack enable pnpm && corepack prepare pnpm --activate
@@ -33,7 +33,8 @@ FROM base AS release
 ARG NX_CLOUD_ACCESS_TOKEN
 
 # Enable BuildKit for faster, efficient builds
-ENV DOCKER_BUILDKIT=1
+#ENV DOCKER_BUILDKIT=1
+
 
 RUN apt update && apt install -y dumb-init --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
