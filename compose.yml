@@ -59,7 +59,7 @@ services:
       # PUBLIC_URL: localhost:3000
       # STORAGE_URL: localhost:9000/default
 
-      PUBLIC_URL: http://139.59.177.92
+      PUBLIC_URL: http://139.59.177.92:3000
       STORAGE_URL: http://139.59.177.92:9000/default
 
       # -- Printer (Chrome) --
