@@ -53,11 +53,14 @@ services:
     environment:
       # -- Environment Variables --
       PORT: 3000
-      NODE_ENV: development
+      NODE_ENV: production
 
       # -- URLs --
-      PUBLIC_URL: localhost:3000
-      STORAGE_URL: localhost:9000/default
+      # PUBLIC_URL: localhost:3000
+      # STORAGE_URL: localhost:9000/default
+
+      PUBLIC_URL: http://139.59.177.92
+      STORAGE_URL: http://139.59.177.92:9000/default
 
       # -- Printer (Chrome) --
       CHROME_TOKEN: chrome_token
