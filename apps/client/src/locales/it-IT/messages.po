@@ -54,24 +54,14 @@ msgstr "<0>L'autenticazione a due fattori è attualmente disabilitata.</0> Puoi 
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>L'autenticazione a due fattori è abilitata.</0> Ti verrà chiesto di inserire un codice ogni volta che accedi."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "An ATS-friendly resume builder"
-msgstr "Un generatore di curriculum gratuito e open source"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "Create standout resumes with our expertly crafted templates designed for success."
-msgstr "Un generatore di curriculum gratuito e open source che semplifica il processo di creazione, aggiornamento e condivisione del tuo curriculum."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:53
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Il link è stato copiato negli appunti."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Un progetto appassionato di <0>Amruth Pillai</0>"
+#~ msgid "A passion project by <0>Amruth Pillai</0>"
+#~ msgstr "Un progetto appassionato di <0>Amruth Pillai</0>"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -128,6 +118,11 @@ msgstr "IA"
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
 msgstr "Ha già un account?"
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#~ msgid "An ATS-friendly resume builder"
+#~ msgstr "Un generatore di curriculum gratuito e open source"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
@@ -232,8 +227,8 @@ msgstr "Costruito con"
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
-msgid "By the community, for the community."
-msgstr "Dalla comunità, per la comunità."
+#~ msgid "By the community, for the community."
+#~ msgstr "Dalla comunità, per la comunità."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:131
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
@@ -318,6 +313,10 @@ msgstr "Copia collegamento per riprendere"
 msgid "Copy to Clipboard"
 msgstr "Copia negli appunti"
 
+#: apps/client/src/components/copyright.tsx:18
+msgid "Copyright © 2024 InstantResume"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:167
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:242
 msgid "Create"
@@ -346,6 +345,11 @@ msgstr "Creane uno ora"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 msgid "Create Sample Resume"
 msgstr "Creare un campione di curriculum"
+
+#: apps/client/src/pages/home/components/footer.tsx:21
+#: apps/client/src/pages/home/sections/hero/index.tsx:45
+msgid "Create standout resumes with our expertly crafted templates designed for success."
+msgstr "Un generatore di curriculum gratuito e open source che semplifica il processo di creazione, aggiornamento e condivisione del tuo curriculum."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
@@ -531,8 +535,12 @@ msgid "Even if you're not in a position to contribute financially, you can still
 msgstr "Anche se non sei nella posizione di contribuire finanziariamente, puoi comunque fare la differenza assegnando una stella al repository GitHub, spargendo la voce ai tuoi amici o inviando un breve messaggio per farmi sapere come Instant Resume ti ha aiutato. Il tuo feedback e il tuo supporto sono sempre benvenuti e molto apprezzati!"
 
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Esplora i modelli disponibili in Instant Resume e visualizza i curriculum realizzati con essi. Potrebbero anche servire come esempi per guidare la creazione del tuo prossimo curriculum."
+#~ msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+#~ msgstr "Esplora i modelli disponibili in Instant Resume e visualizza i curriculum realizzati con essi. Potrebbero anche servire come esempi per guidare la creazione del tuo prossimo curriculum."
+
+#: apps/client/src/pages/home/sections/templates/index.tsx:12
+msgid "Explore the templates available in InstaResume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:111
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
@@ -548,8 +556,8 @@ msgid "Filetype"
 msgstr "Tipo di file"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "Finalmente,"
+#~ msgid "Finally,"
+#~ msgstr "Finalmente,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -622,8 +630,8 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
-msgid "GitHub Stars"
-msgstr "Stelle di GitHub"
+#~ msgid "GitHub Stars"
+#~ msgstr "Stelle di GitHub"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Give your old resume a new name."
@@ -696,8 +704,8 @@ msgid "Icon"
 msgstr "Icona"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "Se questa app ti ha aiutato nella ricerca di lavoro, faccelo sapere contattandomi tramite <0>questo modulo di contatto</0>."
+#~ msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
+#~ msgstr "Se questa app ti ha aiutato nella ricerca di lavoro, faccelo sapere contattandomi tramite <0>questo modulo di contatto</0>."
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
@@ -737,6 +745,57 @@ msgstr "In questa sezione puoi eliminare il tuo account e tutti i dati associati
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Informazioni"
+
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/register/page.tsx:64
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/public/page.tsx:73
+#: apps/client/src/pages/public/page.tsx:94
+msgid "Instant Resume"
+msgstr "Instant Resume"
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+#~ msgid "Instant Resume has helped people land jobs at these great companies:"
+#~ msgstr "Instant Resume ha aiutato le persone a trovare lavoro presso queste grandi aziende:"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:107
+msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
+msgstr "Instant Resume è un progetto di passione che ha richiesto oltre 3 anni di duro lavoro, con il quale sono state realizzate numerose idee e caratteristiche che sono state reinterpretate fino a raggiungere la (quasi) perfezione."
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
+msgstr "Instant Resume è un progetto gratuito e open source realizzato principalmente da me e il tuo supporto sarebbe molto apprezzato. Se sei disposto a contribuire, e solo se te lo puoi permettere, valuta la possibilità di effettuare una donazione tramite una delle piattaforme elencate. Inoltre, le donazioni a Instant Resume tramite Open Collective sono esentasse, poiché il progetto è fiscalmente ospitato da Open Collective Europe."
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+#~ msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
+#~ msgstr "Instant Resume prospera grazie alla sua vivace comunità. Questo progetto deve i suoi progressi a numerose persone che hanno dedicato il loro tempo e le loro competenze. Di seguito, celebriamo i codificatori che hanno migliorato le sue funzioni su GitHub e i linguisti le cui traduzioni su Crowdin lo hanno reso accessibile ad un pubblico più vasto."
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+msgid "Instantly Professional, Instantly Hired"
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:16
+msgid "Instantly Professional, Instantly Hired."
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:26
+#: apps/client/src/pages/home/components/footer.tsx:18
+msgid "InstantResume"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "InstaResume has helped people land jobs at these great companies:"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
@@ -820,8 +879,8 @@ msgid "Layout"
 msgstr "Disposizione"
 
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
-msgid "Learn more"
-msgstr "Altre informazioni"
+#~ msgid "Learn more"
+#~ msgstr "Altre informazioni"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:44
 msgid "Letter"
@@ -833,8 +892,8 @@ msgid "Level"
 msgstr "Livello"
 
 #: apps/client/src/components/copyright.tsx:16
-msgid "Licensed under <0>MIT</0>"
-msgstr "Con licenza <0>MIT</0>"
+#~ msgid "Licensed under <0>MIT</0>"
+#~ msgstr "Con licenza <0>MIT</0>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:86
 msgid "Light"
@@ -1085,7 +1144,7 @@ msgstr "Offerto da <0>Icone semplici</0>"
 msgid "Primary Color"
 msgstr "Colore primario"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:41
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:23
 msgid "Privacy Policy"
@@ -1111,41 +1170,6 @@ msgstr "Editore"
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
 msgid "Raise an issue"
 msgstr "Segnala un problema"
-
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:43
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:94
-msgid "Instant Resume"
-msgstr "Instant Resume"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Instant Resume has helped people land jobs at these great companies:"
-msgstr "Instant Resume ha aiutato le persone a trovare lavoro presso queste grandi aziende:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Instant Resume è un progetto gratuito e open source realizzato principalmente da me e il tuo supporto sarebbe molto apprezzato. Se sei disposto a contribuire, e solo se te lo puoi permettere, valuta la possibilità di effettuare una donazione tramite una delle piattaforme elencate. Inoltre, le donazioni a Instant Resume tramite Open Collective sono esentasse, poiché il progetto è fiscalmente ospitato da Open Collective Europe."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "Instant Resume è un progetto di passione che ha richiesto oltre 3 anni di duro lavoro, con il quale sono state realizzate numerose idee e caratteristiche che sono state reinterpretate fino a raggiungere la (quasi) perfezione."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "Instant Resume prospera grazie alla sua vivace comunità. Questo progetto deve i suoi progressi a numerose persone che hanno dedicato il loro tempo e le loro competenze. Di seguito, celebriamo i codificatori che hanno migliorato le sue funzioni su GitHub e i linguisti le cui traduzioni su Crowdin lo hanno reso accessibile ad un pubblico più vasto."
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:79
 msgid "Redo"
@@ -1187,6 +1211,10 @@ msgstr "Reimposta la tua password"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:106
 msgid "Reset Zoom"
 msgstr "Ripristina zoom"
+
+#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+msgid "Resume templates"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
@@ -1616,8 +1644,8 @@ msgid "Verify your email address"
 msgstr "Verifica il tuo indirizzo email"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Versione 4"
+#~ msgid "Version 4"
+#~ msgstr "Versione 4"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1646,8 +1674,8 @@ msgid "Website"
 msgstr "Sito Web"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "Cosa c'è di nuovo nell'ultima versione"
+#~ msgid "What's new in the latest version"
+#~ msgstr "Cosa c'è di nuovo nell'ultima versione"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:157
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
@@ -1708,4 +1736,3 @@ msgstr "Ingrandisci"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:100
 msgid "Zoom Out"
 msgstr "Rimpicciolisci"
-

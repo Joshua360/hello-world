@@ -58,5 +58,5 @@ tools/scripts/*
 !.env.example
 
 # Lingui Compiled Messages
-apps/client/src/locales/_build/
-apps/client/src/locales/*/messages.mjs
+# apps/client/src/locales/_build/
+# apps/client/src/locales/*/messages.mjs

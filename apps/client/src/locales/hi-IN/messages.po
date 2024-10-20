@@ -54,24 +54,14 @@ msgstr "<0>दो-कारक प्रमाणीकरण वर्तमा
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>दो-कारक प्रमाणीकरण सक्षम है।</0> हर बार साइन इन करने पर आपसे एक कोड दर्ज करने के लिए कहा जाएगा।"
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "An ATS-friendly resume builder"
-msgstr "एक मुफ़्त और ओपन-सोर्स रेज़्युमे बिल्डर"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "Create standout resumes with our expertly crafted templates designed for success."
-msgstr "एक मुफ़्त और ओपन-सोर्स रेज़्यूमे बिल्डर जो आपके रेज़्यूमे को बनाने, अपडेट करने और साझा करने की प्रक्रिया को सरल बनाता है।"
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:53
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "लिंक को क्लिपबोर्ड में कॉपी किया गया है।"
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>अमृत पिल्लई</0> का एक जुनूनी प्रोजेक्ट"
+#~ msgid "A passion project by <0>Amruth Pillai</0>"
+#~ msgstr "<0>अमृत पिल्लई</0> का एक जुनूनी प्रोजेक्ट"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -128,6 +118,11 @@ msgstr "AI"
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
 msgstr "क्या आपके पास पहले से एक खाता मौजूद है?"
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#~ msgid "An ATS-friendly resume builder"
+#~ msgstr "एक मुफ़्त और ओपन-सोर्स रेज़्युमे बिल्डर"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
@@ -232,8 +227,8 @@ msgstr "के साथ निर्मित"
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
-msgid "By the community, for the community."
-msgstr "समुदाय द्वारा, समुदाय के लिए."
+#~ msgid "By the community, for the community."
+#~ msgstr "समुदाय द्वारा, समुदाय के लिए."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:131
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
@@ -318,6 +313,10 @@ msgstr "फिर से शुरू करने के लिए लिंक
 msgid "Copy to Clipboard"
 msgstr "क्लिपबोर्ड पर कॉपी करें"
 
+#: apps/client/src/components/copyright.tsx:18
+msgid "Copyright © 2024 InstantResume"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:167
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:242
 msgid "Create"
@@ -346,6 +345,11 @@ msgstr "अभी एक बनाएं"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 msgid "Create Sample Resume"
 msgstr "नमूना बायोडाटा बनाएं"
+
+#: apps/client/src/pages/home/components/footer.tsx:21
+#: apps/client/src/pages/home/sections/hero/index.tsx:45
+msgid "Create standout resumes with our expertly crafted templates designed for success."
+msgstr "एक मुफ़्त और ओपन-सोर्स रेज़्यूमे बिल्डर जो आपके रेज़्यूमे को बनाने, अपडेट करने और साझा करने की प्रक्रिया को सरल बनाता है।"
 
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
@@ -531,8 +535,12 @@ msgid "Even if you're not in a position to contribute financially, you can still
 msgstr "भले ही आप वित्तीय रूप से योगदान करने की स्थिति में नहीं हैं, फिर भी आप GitHub रिपॉजिटरी को एक स्टार देकर, अपने दोस्तों तक बात फैलाकर, या मुझे यह बताने के लिए एक त्वरित संदेश भेजकर अंतर ला सकते हैं कि रिएक्टिव रेज़्यूमे ने आपकी कैसे मदद की है। आपकी प्रतिक्रिया और समर्थन का हमेशा स्वागत है और बहुत सराहना की जाती है!"
 
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "रिएक्टिव रेज़्यूमे में उपलब्ध टेम्पलेट्स का अन्वेषण करें और उनके साथ तैयार किए गए रेज़्यूमे देखें। वे आपके अगले बायोडाटा के निर्माण में मार्गदर्शन के लिए उदाहरण के रूप में भी काम कर सकते हैं।"
+#~ msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+#~ msgstr "रिएक्टिव रेज़्यूमे में उपलब्ध टेम्पलेट्स का अन्वेषण करें और उनके साथ तैयार किए गए रेज़्यूमे देखें। वे आपके अगले बायोडाटा के निर्माण में मार्गदर्शन के लिए उदाहरण के रूप में भी काम कर सकते हैं।"
+
+#: apps/client/src/pages/home/sections/templates/index.tsx:12
+msgid "Explore the templates available in InstaResume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:111
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
@@ -548,8 +556,8 @@ msgid "Filetype"
 msgstr "फाइल का प्रकार"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "अंत में,"
+#~ msgid "Finally,"
+#~ msgstr "अंत में,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -622,8 +630,8 @@ msgid "GitHub"
 msgstr "गिटहब"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
-msgid "GitHub Stars"
-msgstr "गिटहब सितारे"
+#~ msgid "GitHub Stars"
+#~ msgstr "गिटहब सितारे"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Give your old resume a new name."
@@ -696,8 +704,8 @@ msgid "Icon"
 msgstr "आइकॉन"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "यदि इस ऐप ने आपको नौकरी खोजने में मदद की है, तो <0>इस संपर्क फ़ॉर्म के माध्यम से मुझसे संपर्क करके मुझे बताएं</0>."
+#~ msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
+#~ msgstr "यदि इस ऐप ने आपको नौकरी खोजने में मदद की है, तो <0>इस संपर्क फ़ॉर्म के माध्यम से मुझसे संपर्क करके मुझे बताएं</0>."
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
@@ -737,6 +745,57 @@ msgstr "इस अनुभाग में, आप अपना खाता �
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "जानकारी"
+
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/register/page.tsx:64
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/public/page.tsx:73
+#: apps/client/src/pages/public/page.tsx:94
+msgid "Instant Resume"
+msgstr "रिएक्टिव रेज़्यूमे"
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+#~ msgid "Instant Resume has helped people land jobs at these great companies:"
+#~ msgstr "रिएक्टिव रेज़्यूमे ने लोगों को इन महान कंपनियों में नौकरियां पाने में मदद की है:"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:107
+msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
+msgstr "रिएक्टिव रेज़्युमे 3 वर्षों से अधिक की कड़ी मेहनत का एक जुनूनी प्रोजेक्ट है, और इसके साथ कई बार दोहराए गए विचार और विशेषताएं आती हैं जिन्हें (लगभग) पूर्णता के लिए बनाया गया है।"
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
+msgstr "रिएक्टिव रेज़्यूमे एक स्वतंत्र और ओपन-सोर्स प्रोजेक्ट है जिसे ज्यादातर मेरे द्वारा तैयार किया गया है, और आपके समर्थन की बहुत सराहना की जाएगी। यदि आप योगदान करने के इच्छुक हैं, और यदि आप इसे वहन कर सकते हैं, तो किसी भी सूचीबद्ध प्लेटफ़ॉर्म के माध्यम से दान करने पर विचार करें। इसके अतिरिक्त, ओपन कलेक्टिव के माध्यम से रिएक्टिव रेज़्यूमे में दान कर-मुक्त है, क्योंकि परियोजना को ओपन कलेक्टिव यूरोप द्वारा वित्तीय रूप से होस्ट किया गया है।"
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+#~ msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
+#~ msgstr "रिएक्टिव रेज़्यूमे अपने जीवंत समुदाय की बदौलत फलता-फूलता है। इस परियोजना की प्रगति का श्रेय उन असंख्य व्यक्तियों को जाता है जिन्होंने अपना समय और कौशल समर्पित किया है। नीचे, हम उन कोडर्स का जश्न मना रहे हैं जिन्होंने GitHub पर इसकी विशेषताओं को बढ़ाया है और उन भाषाविदों का जश्न मनाया है जिनके क्राउडिन पर अनुवादों ने इसे व्यापक दर्शकों के लिए सुलभ बना दिया है।"
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+msgid "Instantly Professional, Instantly Hired"
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:16
+msgid "Instantly Professional, Instantly Hired."
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:26
+#: apps/client/src/pages/home/components/footer.tsx:18
+msgid "InstantResume"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "InstaResume has helped people land jobs at these great companies:"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
@@ -820,8 +879,8 @@ msgid "Layout"
 msgstr "लेआउट"
 
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
-msgid "Learn more"
-msgstr "अधिक जानें"
+#~ msgid "Learn more"
+#~ msgstr "अधिक जानें"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:44
 msgid "Letter"
@@ -833,8 +892,8 @@ msgid "Level"
 msgstr "स्तर"
 
 #: apps/client/src/components/copyright.tsx:16
-msgid "Licensed under <0>MIT</0>"
-msgstr "<0>एमआईटी के तहत लाइसेंस प्राप्त</0>"
+#~ msgid "Licensed under <0>MIT</0>"
+#~ msgstr "<0>एमआईटी के तहत लाइसेंस प्राप्त</0>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:86
 msgid "Light"
@@ -1085,7 +1144,7 @@ msgstr "<0>सिंपल आइकॉन</0> द्वारा संचा�
 msgid "Primary Color"
 msgstr "प्राथमिक रंग"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:41
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:23
 msgid "Privacy Policy"
@@ -1111,41 +1170,6 @@ msgstr "प्रकाशक"
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
 msgid "Raise an issue"
 msgstr "एक मुद्दा उठाओ"
-
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:43
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:94
-msgid "Instant Resume"
-msgstr "रिएक्टिव रेज़्यूमे"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Instant Resume has helped people land jobs at these great companies:"
-msgstr "रिएक्टिव रेज़्यूमे ने लोगों को इन महान कंपनियों में नौकरियां पाने में मदद की है:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "रिएक्टिव रेज़्यूमे एक स्वतंत्र और ओपन-सोर्स प्रोजेक्ट है जिसे ज्यादातर मेरे द्वारा तैयार किया गया है, और आपके समर्थन की बहुत सराहना की जाएगी। यदि आप योगदान करने के इच्छुक हैं, और यदि आप इसे वहन कर सकते हैं, तो किसी भी सूचीबद्ध प्लेटफ़ॉर्म के माध्यम से दान करने पर विचार करें। इसके अतिरिक्त, ओपन कलेक्टिव के माध्यम से रिएक्टिव रेज़्यूमे में दान कर-मुक्त है, क्योंकि परियोजना को ओपन कलेक्टिव यूरोप द्वारा वित्तीय रूप से होस्ट किया गया है।"
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "रिएक्टिव रेज़्युमे 3 वर्षों से अधिक की कड़ी मेहनत का एक जुनूनी प्रोजेक्ट है, और इसके साथ कई बार दोहराए गए विचार और विशेषताएं आती हैं जिन्हें (लगभग) पूर्णता के लिए बनाया गया है।"
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "रिएक्टिव रेज़्यूमे अपने जीवंत समुदाय की बदौलत फलता-फूलता है। इस परियोजना की प्रगति का श्रेय उन असंख्य व्यक्तियों को जाता है जिन्होंने अपना समय और कौशल समर्पित किया है। नीचे, हम उन कोडर्स का जश्न मना रहे हैं जिन्होंने GitHub पर इसकी विशेषताओं को बढ़ाया है और उन भाषाविदों का जश्न मनाया है जिनके क्राउडिन पर अनुवादों ने इसे व्यापक दर्शकों के लिए सुलभ बना दिया है।"
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:79
 msgid "Redo"
@@ -1187,6 +1211,10 @@ msgstr "अपना पासवर्ड रीसेट करें"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:106
 msgid "Reset Zoom"
 msgstr "ज़ूम रीसेट करें"
+
+#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+msgid "Resume templates"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
@@ -1616,8 +1644,8 @@ msgid "Verify your email address"
 msgstr "अपने ईमेल पते की पुष्टि करें"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "संस्करण 4"
+#~ msgid "Version 4"
+#~ msgstr "संस्करण 4"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1646,8 +1674,8 @@ msgid "Website"
 msgstr "वेबसाइट"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "नवीनतम संस्करण में नया क्या है"
+#~ msgid "What's new in the latest version"
+#~ msgstr "नवीनतम संस्करण में नया क्या है"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:157
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
@@ -1708,4 +1736,3 @@ msgstr "ज़ूम इन"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:100
 msgid "Zoom Out"
 msgstr "ज़ूम आउट"
-

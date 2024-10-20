@@ -54,24 +54,14 @@ msgstr "<0>Dvoufaktorové ověřování je v současné době zakázáno.</0> M�
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>Je povoleno dvoufaktorové ověřování.</0> Při každém přihlášení budete vyzváni k zadání kódu."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "An ATS-friendly resume builder"
-msgstr "Bezplatný nástroj pro tvorbu životopisů s otevřeným zdrojovým kódem"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "Create standout resumes with our expertly crafted templates designed for success."
-msgstr "Bezplatný nástroj pro tvorbu životopisů s otevřeným zdrojovým kódem, který zjednodušuje proces vytváření, aktualizace a sdílení životopisů."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:53
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Odkaz byl zkopírován do vašeho clipboardu."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "Osobní projekt <0>Amruth Pillai</0>"
+#~ msgid "A passion project by <0>Amruth Pillai</0>"
+#~ msgstr "Osobní projekt <0>Amruth Pillai</0>"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -128,6 +118,11 @@ msgstr "AI"
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
 msgstr "Již máte účet?"
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#~ msgid "An ATS-friendly resume builder"
+#~ msgstr "Bezplatný nástroj pro tvorbu životopisů s otevřeným zdrojovým kódem"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
@@ -232,8 +227,8 @@ msgstr "Vytvořeno s"
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
-msgid "By the community, for the community."
-msgstr "Vytvořeno komunitou pro komunitu."
+#~ msgid "By the community, for the community."
+#~ msgstr "Vytvořeno komunitou pro komunitu."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:131
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
@@ -318,6 +313,10 @@ msgstr "Kopírovat odkaz na životopis"
 msgid "Copy to Clipboard"
 msgstr "Zkopírovat do schránky"
 
+#: apps/client/src/components/copyright.tsx:18
+msgid "Copyright © 2024 InstantResume"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:167
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:242
 msgid "Create"
@@ -346,6 +345,11 @@ msgstr "Vytvořit nyní"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 msgid "Create Sample Resume"
 msgstr "Vytvořit ukázkový životopis"
+
+#: apps/client/src/pages/home/components/footer.tsx:21
+#: apps/client/src/pages/home/sections/hero/index.tsx:45
+msgid "Create standout resumes with our expertly crafted templates designed for success."
+msgstr "Bezplatný nástroj pro tvorbu životopisů s otevřeným zdrojovým kódem, který zjednodušuje proces vytváření, aktualizace a sdílení životopisů."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
@@ -531,8 +535,12 @@ msgid "Even if you're not in a position to contribute financially, you can still
 msgstr "I když nejste schopni přispět finančně, můžete změnit tím, že budete mít GitHubu hvězdu, šíří slovo svým přátelům nebo shazuje rychlou zprávu, aby mi dalo vědět, jak vám pomohl Instant Resume Vaše zpětná vazba a podpora jsou vždy vítány a oceňovány!"
 
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Prozkoumejte šablony dostupné v Instant Resume a podívejte se na obnovení s nimi. Mohli by také sloužit jako příklady, které by pomohly řídit vytvoření vašeho dalšího životopisu."
+#~ msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+#~ msgstr "Prozkoumejte šablony dostupné v Instant Resume a podívejte se na obnovení s nimi. Mohli by také sloužit jako příklady, které by pomohly řídit vytvoření vašeho dalšího životopisu."
+
+#: apps/client/src/pages/home/sections/templates/index.tsx:12
+msgid "Explore the templates available in InstaResume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:111
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
@@ -548,8 +556,8 @@ msgid "Filetype"
 msgstr "Typ souboru"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "Konečně"
+#~ msgid "Finally,"
+#~ msgstr "Konečně"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -622,8 +630,8 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
-msgid "GitHub Stars"
-msgstr "GitHub Stars"
+#~ msgid "GitHub Stars"
+#~ msgstr "GitHub Stars"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Give your old resume a new name."
@@ -696,8 +704,8 @@ msgid "Icon"
 msgstr "Ikona"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "Pokud vám tato aplikace pomohla s Vaším honem na práci, dejte mi vědět tím, že osloví <0>tento kontaktní formulář</0>."
+#~ msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
+#~ msgstr "Pokud vám tato aplikace pomohla s Vaším honem na práci, dejte mi vědět tím, že osloví <0>tento kontaktní formulář</0>."
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
@@ -737,6 +745,57 @@ msgstr "V této sekci můžete smazat svůj účet a všechna data spojená s va
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Informace"
+
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/register/page.tsx:64
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/public/page.tsx:73
+#: apps/client/src/pages/public/page.tsx:94
+msgid "Instant Resume"
+msgstr "Reaktivní obnovení"
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+#~ msgid "Instant Resume has helped people land jobs at these great companies:"
+#~ msgstr "Instant Resume pomáhal lidem při práci v těchto skvělých společnostech:"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:107
+msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
+msgstr "Instant Resume je vášnivý projekt více než 3 roky tvrdé práce, a s tím přichází řada reiterovaných myšlenek a rysů, které byly postaveny na (near) dokonalosti."
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
+msgstr "Reaktivní Resume je bezplatný a otevřený projekt vytvořený většinou mnou a vaše podpora by byla velmi oceněna. Pokud máte sklon přispět, a pouze pokud si to můžete dovolit, zvažte poskytnutí daru prostřednictvím některé z uvedených platforem. Kromě toho dary pro Instant Resume prostřednictvím Open Collective jsou osvobozeny od daní, protože projekt je daňově hostován Open Collective Europe."
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+#~ msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
+#~ msgstr "Instant Resume vzkvétá díky jeho živé komunitě. Tento projekt vděčí za svůj pokrok mnoha jednotlivcům, kteří věnovali svůj čas a dovednosti. Pod tímto slavíme kodéry, kteří rozšířili své funkce na GitHubu, a lingvisty, jejichž překlady na Crowdin je zpřístupnily širšímu publiku."
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+msgid "Instantly Professional, Instantly Hired"
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:16
+msgid "Instantly Professional, Instantly Hired."
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:26
+#: apps/client/src/pages/home/components/footer.tsx:18
+msgid "InstantResume"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "InstaResume has helped people land jobs at these great companies:"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
@@ -820,8 +879,8 @@ msgid "Layout"
 msgstr "Rozložení"
 
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
-msgid "Learn more"
-msgstr "Zjistit více"
+#~ msgid "Learn more"
+#~ msgstr "Zjistit více"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:44
 msgid "Letter"
@@ -833,8 +892,8 @@ msgid "Level"
 msgstr "Úrovně"
 
 #: apps/client/src/components/copyright.tsx:16
-msgid "Licensed under <0>MIT</0>"
-msgstr "Licencováno pod <0>MIT</0>"
+#~ msgid "Licensed under <0>MIT</0>"
+#~ msgstr "Licencováno pod <0>MIT</0>"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:86
 msgid "Light"
@@ -1085,7 +1144,7 @@ msgstr "Běží o <0>Jednoduchý Icons</0>"
 msgid "Primary Color"
 msgstr "Primární barva"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:41
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:23
 msgid "Privacy Policy"
@@ -1111,41 +1170,6 @@ msgstr "Vydavatel"
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
 msgid "Raise an issue"
 msgstr "Vyvolat problém"
-
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:43
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:94
-msgid "Instant Resume"
-msgstr "Reaktivní obnovení"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Instant Resume has helped people land jobs at these great companies:"
-msgstr "Instant Resume pomáhal lidem při práci v těchto skvělých společnostech:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "Reaktivní Resume je bezplatný a otevřený projekt vytvořený většinou mnou a vaše podpora by byla velmi oceněna. Pokud máte sklon přispět, a pouze pokud si to můžete dovolit, zvažte poskytnutí daru prostřednictvím některé z uvedených platforem. Kromě toho dary pro Instant Resume prostřednictvím Open Collective jsou osvobozeny od daní, protože projekt je daňově hostován Open Collective Europe."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "Instant Resume je vášnivý projekt více než 3 roky tvrdé práce, a s tím přichází řada reiterovaných myšlenek a rysů, které byly postaveny na (near) dokonalosti."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "Instant Resume vzkvétá díky jeho živé komunitě. Tento projekt vděčí za svůj pokrok mnoha jednotlivcům, kteří věnovali svůj čas a dovednosti. Pod tímto slavíme kodéry, kteří rozšířili své funkce na GitHubu, a lingvisty, jejichž překlady na Crowdin je zpřístupnily širšímu publiku."
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:79
 msgid "Redo"
@@ -1187,6 +1211,10 @@ msgstr "Resetovat heslo"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:106
 msgid "Reset Zoom"
 msgstr "Reset Zoom"
+
+#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+msgid "Resume templates"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
@@ -1616,8 +1644,8 @@ msgid "Verify your email address"
 msgstr "Ověřte svou e-mailovou adresu"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "Verze 4"
+#~ msgid "Version 4"
+#~ msgstr "Verze 4"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1646,8 +1674,8 @@ msgid "Website"
 msgstr "Webová stránka"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "Co je nového v nejnovější verzi"
+#~ msgid "What's new in the latest version"
+#~ msgstr "Co je nového v nejnovější verzi"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:157
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
@@ -1708,4 +1736,3 @@ msgstr "Přiblížit"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:100
 msgid "Zoom Out"
 msgstr "Oddálit"
-

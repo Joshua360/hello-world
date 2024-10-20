@@ -54,24 +54,14 @@ msgstr "<0>A kétfaktoros hitelesítés jelenleg ki van kapcsolva.</0> A hiteles
 msgid "<0>Two-factor authentication is enabled.</0> You will be asked to enter a code every time you sign in."
 msgstr "<0>A kétfaktoros hitelesítés engedélyezve van.</0> Minden bejelentkezéskor meg kell adnia egy kódot."
 
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/home/sections/hero/index.tsx:40
-msgid "An ATS-friendly resume builder"
-msgstr "Ingyenes és nyílt forráskódú önéletrajzkészítő program"
-
-#: apps/client/src/pages/home/components/footer.tsx:21
-#: apps/client/src/pages/home/sections/hero/index.tsx:45
-msgid "Create standout resumes with our expertly crafted templates designed for success."
-msgstr "Ingyenes és nyílt forráskódú önéletrajz készítő, amely leegyszerűsíti az önéletrajz készítésének, frissítésének és megosztásának folyamatát."
-
 #: apps/client/src/pages/builder/_components/toolbar.tsx:53
 #: apps/client/src/pages/builder/sidebars/right/sections/sharing.tsx:29
 msgid "A link has been copied to your clipboard."
 msgstr "Egy linket másoltunk a vágólapra."
 
 #: apps/client/src/components/copyright.tsx:29
-msgid "A passion project by <0>Amruth Pillai</0>"
-msgstr "<0>Amruth Pillai</0> szenvedélyes projektje"
+#~ msgid "A passion project by <0>Amruth Pillai</0>"
+#~ msgstr "<0>Amruth Pillai</0> szenvedélyes projektje"
 
 #: apps/client/src/pages/auth/forgot-password/page.tsx:57
 msgid "A password reset link should have been sent to your inbox, if an account existed with the email you provided."
@@ -128,6 +118,11 @@ msgstr "AI"
 #: apps/client/src/pages/auth/register/page.tsx:71
 msgid "Already have an account?"
 msgstr "Van már fiókod?"
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+#~ msgid "An ATS-friendly resume builder"
+#~ msgstr "Ingyenes és nyílt forráskódú önéletrajzkészítő program"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/import.tsx:146
 msgid "An error occurred while validating the file."
@@ -232,8 +227,8 @@ msgstr "Készült"
 
 #: apps/client/src/components/copyright.tsx:27
 #: apps/client/src/pages/home/sections/contributors/index.tsx:20
-msgid "By the community, for the community."
-msgstr "A közösség által, a közösségért."
+#~ msgid "By the community, for the community."
+#~ msgstr "A közösség által, a közösségért."
 
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:131
 #: apps/client/src/pages/dashboard/resumes/_dialogs/lock.tsx:49
@@ -318,6 +313,10 @@ msgstr "Másolja a hivatkozást az önéletrajzhoz"
 msgid "Copy to Clipboard"
 msgstr "Másolás a vágólapra"
 
+#: apps/client/src/components/copyright.tsx:18
+msgid "Copyright © 2024 InstantResume"
+msgstr ""
+
 #: apps/client/src/pages/builder/sidebars/left/sections/shared/section-dialog.tsx:167
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:242
 msgid "Create"
@@ -346,6 +345,11 @@ msgstr "Létrehozás most"
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:257
 msgid "Create Sample Resume"
 msgstr "Minta önéletrajz létrehozása"
+
+#: apps/client/src/pages/home/components/footer.tsx:21
+#: apps/client/src/pages/home/sections/hero/index.tsx:45
+msgid "Create standout resumes with our expertly crafted templates designed for success."
+msgstr "Ingyenes és nyílt forráskódú önéletrajz készítő, amely leegyszerűsíti az önéletrajz készítésének, frissítésének és megosztásának folyamatát."
 
 #: apps/client/src/pages/home/sections/features/index.tsx:62
 msgid "Custom resume sections"
@@ -531,8 +535,12 @@ msgid "Even if you're not in a position to contribute financially, you can still
 msgstr "Még ha nem is vagy abban a helyzetben, hogy anyagilag hozzájárulj, akkor is tehetsz valamit, ha csillagot adsz a GitHub tárolónak, továbbítod a hírt barátaidnak, vagy küldesz egy gyors üzenetet, hogy tudasd velem, hogyan segített neked a Instant Resume. Visszajelzéseiteket és támogatásotokat mindig szívesen fogadjuk és nagyra értékeljük!"
 
 #: apps/client/src/pages/home/sections/templates/index.tsx:12
-msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
-msgstr "Fedezze fel a Reaktív önéletrajzban elérhető sablonokat, és tekintse meg a velük készített önéletrajzokat. Ezek példaként is szolgálhatnak a következő önéletrajzának elkészítéséhez."
+#~ msgid "Explore the templates available in Instant Resume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+#~ msgstr "Fedezze fel a Reaktív önéletrajzban elérhető sablonokat, és tekintse meg a velük készített önéletrajzokat. Ezek példaként is szolgálhatnak a következő önéletrajzának elkészítéséhez."
+
+#: apps/client/src/pages/home/sections/templates/index.tsx:12
+msgid "Explore the templates available in InstaResume and view the resumes crafted with them. They could also serve as examples to help guide the creation of your next resume."
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/right/index.tsx:111
 #: apps/client/src/pages/builder/sidebars/right/sections/export.tsx:40
@@ -548,8 +556,8 @@ msgid "Filetype"
 msgstr "Fájltípus"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:38
-msgid "Finally,"
-msgstr "Végül,"
+#~ msgid "Finally,"
+#~ msgstr "Végül,"
 
 #: apps/client/src/components/ai-actions.tsx:90
 msgid "Fix Spelling & Grammar"
@@ -622,8 +630,8 @@ msgid "GitHub"
 msgstr "GitHub"
 
 #: apps/client/src/pages/home/sections/statistics/index.tsx:12
-msgid "GitHub Stars"
-msgstr "GitHub csillagok"
+#~ msgid "GitHub Stars"
+#~ msgstr "GitHub csillagok"
 
 #: apps/client/src/pages/dashboard/resumes/_dialogs/resume.tsx:185
 msgid "Give your old resume a new name."
@@ -696,8 +704,8 @@ msgid "Icon"
 msgstr "Ikon"
 
 #: apps/client/src/pages/home/sections/logo-cloud/index.tsx:47
-msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
-msgstr "Ha ez az alkalmazás segített neked az álláskeresésben, tudasd velem, ha kapcsolatba lépsz velem <0>ezen a kapcsolatfelvételi űrlapon</0> keresztül."
+#~ msgid "If this app has helped you with your job hunt, let me know by reaching out through <0>this contact form</0>."
+#~ msgstr "Ha ez az alkalmazás segített neked az álláskeresésben, tudasd velem, ha kapcsolatba lépsz velem <0>ezen a kapcsolatfelvételi űrlapon</0> keresztül."
 
 #: apps/client/src/pages/dashboard/settings/_dialogs/two-factor.tsx:128
 msgid "If you disable two-factor authentication, you will no longer be required to enter a verification code when logging in."
@@ -737,6 +745,57 @@ msgstr "Ebben a szakaszban törölheti fiókját és a felhasználóhoz kapcsol�
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:117
 msgid "Information"
 msgstr "Információ"
+
+#: apps/client/src/pages/auth/backup-otp/page.tsx:52
+#: apps/client/src/pages/auth/forgot-password/page.tsx:49
+#: apps/client/src/pages/auth/login/page.tsx:55
+#: apps/client/src/pages/auth/register/page.tsx:64
+#: apps/client/src/pages/auth/reset-password/page.tsx:60
+#: apps/client/src/pages/auth/verify-email/page.tsx:43
+#: apps/client/src/pages/auth/verify-otp/page.tsx:52
+#: apps/client/src/pages/builder/page.tsx:43
+#: apps/client/src/pages/dashboard/resumes/page.tsx:20
+#: apps/client/src/pages/dashboard/settings/page.tsx:16
+#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/public/page.tsx:73
+#: apps/client/src/pages/public/page.tsx:94
+msgid "Instant Resume"
+msgstr "Reaktív önéletrajz"
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+#~ msgid "Instant Resume has helped people land jobs at these great companies:"
+#~ msgstr "A Instant Resume segített már embereknek munkát találni ezeknél a nagyszerű vállalatoknál:"
+
+#: apps/client/src/pages/home/sections/features/index.tsx:107
+msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
+msgstr "A Instant Resume egy több mint 3 évnyi kemény munka szenvedélyes projektje, és ezzel együtt számos újra megismételt ötlet és funkció, amelyeket (majdnem) tökéletességig építettünk."
+
+#: apps/client/src/pages/home/sections/support/index.tsx:12
+msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
+msgstr "A Instant Resume egy ingyenes és nyílt forráskódú projekt, amelyet főként én készítettem, és nagyra értékelném a támogatásodat. Ha hajlandó vagy hozzájárulni, és csak akkor, ha megengedheted magadnak, fontold meg az adományozást a felsorolt platformok bármelyikén keresztül. Továbbá, a Instant Resume-nak az Open Collective-n keresztül történő adományozás adómentes, mivel a projektet az Open Collective Europe tartja fenn."
+
+#: apps/client/src/pages/home/sections/contributors/index.tsx:22
+#~ msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
+#~ msgstr "A Instant Resume élénk közösségének köszönhetően virágzik. Ez a projekt számos olyan személynek köszönheti fejlődését, akik időt és készségeket áldoztak rá. Az alábbiakban azokat a programozókat ünnepeljük, akik a GitHubon továbbfejlesztették a funkciókat, és azokat a nyelvészeket, akiknek a Crowdinon található fordításai a szélesebb közönség számára is elérhetővé tették a szolgáltatást."
+
+#: apps/client/src/pages/home/page.tsx:24
+#: apps/client/src/pages/home/sections/hero/index.tsx:40
+msgid "Instantly Professional, Instantly Hired"
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:16
+msgid "Instantly Professional, Instantly Hired."
+msgstr ""
+
+#: apps/client/src/components/copyright.tsx:26
+#: apps/client/src/pages/home/components/footer.tsx:18
+msgid "InstantResume"
+msgstr ""
+
+#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
+msgid "InstaResume has helped people land jobs at these great companies:"
+msgstr ""
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/education.tsx:39
 msgid "Institution"
@@ -820,8 +879,8 @@ msgid "Layout"
 msgstr "Elrendezés"
 
 #: apps/client/src/pages/home/sections/hero/call-to-action.tsx:38
-msgid "Learn more"
-msgstr "Tudjon meg többet"
+#~ msgid "Learn more"
+#~ msgstr "Tudjon meg többet"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/page.tsx:44
 msgid "Letter"
@@ -833,8 +892,8 @@ msgid "Level"
 msgstr "Szint"
 
 #: apps/client/src/components/copyright.tsx:16
-msgid "Licensed under <0>MIT</0>"
-msgstr "Licencelve <0>MIT</0> alatt"
+#~ msgid "Licensed under <0>MIT</0>"
+#~ msgstr "Licencelve <0>MIT</0> alatt"
 
 #: apps/client/src/pages/dashboard/settings/_sections/profile.tsx:86
 msgid "Light"
@@ -1085,7 +1144,7 @@ msgstr "Készítette: <0>Simple Icons</0>"
 msgid "Primary Color"
 msgstr "Elsődleges szín"
 
-#: apps/client/src/pages/home/components/footer.tsx:50
+#: apps/client/src/pages/home/components/footer.tsx:41
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
 #: apps/client/src/pages/home/meta/privacy-policy/page.tsx:23
 msgid "Privacy Policy"
@@ -1111,41 +1170,6 @@ msgstr "Kiadó"
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:69
 msgid "Raise an issue"
 msgstr "Kérdés felvetése"
-
-#: apps/client/src/components/copyright.tsx:35
-#: apps/client/src/pages/auth/backup-otp/page.tsx:52
-#: apps/client/src/pages/auth/forgot-password/page.tsx:49
-#: apps/client/src/pages/auth/login/page.tsx:55
-#: apps/client/src/pages/auth/register/page.tsx:64
-#: apps/client/src/pages/auth/reset-password/page.tsx:60
-#: apps/client/src/pages/auth/verify-email/page.tsx:43
-#: apps/client/src/pages/auth/verify-otp/page.tsx:52
-#: apps/client/src/pages/builder/page.tsx:43
-#: apps/client/src/pages/dashboard/resumes/page.tsx:20
-#: apps/client/src/pages/dashboard/settings/page.tsx:16
-#: apps/client/src/pages/home/components/footer.tsx:18
-#: apps/client/src/pages/home/meta/privacy-policy/page.tsx:10
-#: apps/client/src/pages/home/page.tsx:24
-#: apps/client/src/pages/public/page.tsx:73
-#: apps/client/src/pages/public/page.tsx:94
-msgid "Instant Resume"
-msgstr "Reaktív önéletrajz"
-
-#: apps/client/src/pages/home/sections/logo-cloud/index.tsx:39
-msgid "Instant Resume has helped people land jobs at these great companies:"
-msgstr "A Instant Resume segített már embereknek munkát találni ezeknél a nagyszerű vállalatoknál:"
-
-#: apps/client/src/pages/home/sections/support/index.tsx:12
-msgid "Instant Resume is An ATS-friendly project crafted mostly by me, and your support would be greatly appreciated. If you're inclined to contribute, and only if you can afford to, consider making a donation through any of the listed platforms. Additionally, donations to Instant Resume through Open Collective are tax-exempt, as the project is fiscally hosted by Open Collective Europe."
-msgstr "A Instant Resume egy ingyenes és nyílt forráskódú projekt, amelyet főként én készítettem, és nagyra értékelném a támogatásodat. Ha hajlandó vagy hozzájárulni, és csak akkor, ha megengedheted magadnak, fontold meg az adományozást a felsorolt platformok bármelyikén keresztül. Továbbá, a Instant Resume-nak az Open Collective-n keresztül történő adományozás adómentes, mivel a projektet az Open Collective Europe tartja fenn."
-
-#: apps/client/src/pages/home/sections/features/index.tsx:107
-msgid "Instant Resume is a passion project of over 3 years of hard work, and with that comes a number of re-iterated ideas and features that have been built to (near) perfection."
-msgstr "A Instant Resume egy több mint 3 évnyi kemény munka szenvedélyes projektje, és ezzel együtt számos újra megismételt ötlet és funkció, amelyeket (majdnem) tökéletességig építettünk."
-
-#: apps/client/src/pages/home/sections/contributors/index.tsx:22
-msgid "Instant Resume thrives thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills. Below, we celebrate the coders who've enhanced its features on GitHub and the linguists whose translations on Crowdin have made it accessible to a broader audience."
-msgstr "A Instant Resume élénk közösségének köszönhetően virágzik. Ez a projekt számos olyan személynek köszönheti fejlődését, akik időt és készségeket áldoztak rá. Az alábbiakban azokat a programozókat ünnepeljük, akik a GitHubon továbbfejlesztették a funkciókat, és azokat a nyelvészeket, akiknek a Crowdinon található fordításai a szélesebb közönség számára is elérhetővé tették a szolgáltatást."
 
 #: apps/client/src/pages/builder/_components/toolbar.tsx:79
 msgid "Redo"
@@ -1187,6 +1211,10 @@ msgstr "Jelszó visszaállítása"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:106
 msgid "Reset Zoom"
 msgstr "Zoom visszaállítása"
+
+#: apps/client/src/pages/home/sections/statistics/index.tsx:12
+msgid "Resume templates"
+msgstr ""
 
 #: apps/client/src/pages/dashboard/_components/sidebar.tsx:86
 #: apps/client/src/pages/dashboard/resumes/page.tsx:20
@@ -1616,8 +1644,8 @@ msgid "Verify your email address"
 msgstr "Ellenőrizze az e-mail címét"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:26
-msgid "Version 4"
-msgstr "4. verzió"
+#~ msgid "Version 4"
+#~ msgstr "4. verzió"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/statistics.tsx:51
 msgid "Views"
@@ -1646,8 +1674,8 @@ msgid "Website"
 msgstr "Honlap"
 
 #: apps/client/src/pages/home/sections/hero/index.tsx:32
-msgid "What's new in the latest version"
-msgstr "Újdonságok a legújabb verzióban"
+#~ msgid "What's new in the latest version"
+#~ msgstr "Újdonságok a legújabb verzióban"
 
 #: apps/client/src/pages/builder/sidebars/left/dialogs/custom-section.tsx:157
 #: apps/client/src/pages/builder/sidebars/left/dialogs/interests.tsx:68
@@ -1708,4 +1736,3 @@ msgstr "Nagyítás"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:100
 msgid "Zoom Out"
 msgstr "Kicsinyítés"
-
