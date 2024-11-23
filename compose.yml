@@ -59,8 +59,11 @@ services:
       # PUBLIC_URL: localhost:3000
       # STORAGE_URL: localhost:9000/default
 
-      PUBLIC_URL: http://139.59.177.92:3000
-      STORAGE_URL: http://139.59.177.92:9000/default
+      # PUBLIC_URL: http://139.59.177.92:3000
+      # STORAGE_URL: http://139.59.177.92:9000/default
+      # -- URLs --
+      PUBLIC_URL: http://komoga.xyz
+      STORAGE_URL: http://komoga.xyz:9000/default
 
       # -- Printer (Chrome) --
       CHROME_TOKEN: chrome_token
